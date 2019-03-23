@@ -1,4 +1,4 @@
-""" Test the python-app Cookiecutter template.
+""" Test the cookiecutter-ais Cookiecutter template.
 
 A template project is created in a temporary directory, the application is
 installed into a self-contained venv environment, and the application test 
@@ -18,6 +18,7 @@ from tempfile import TemporaryDirectory
 from venv import create
 
 from cookiecutter.main import cookiecutter
+
 
 def main():
     """ Execute the test.
@@ -41,9 +42,9 @@ def main():
         test = "{:s} --verbose test".format(pytest)
         check_call(split(test))
     return 0
-    
-    
+
+
 # Make the script executable.
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()

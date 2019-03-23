@@ -1,9 +1,14 @@
 {
     "project_slug": "pyapp",
     "app_name": "{{ cookiecutter.project_slug }}",
+    "conda_env_name" : "{{ cookiecutter.app_name }}env",
+    "postgres": true,
     "cli_script": "cli",
     "author_name": "",
     "author_email": "",
     "project_version": "0.1.0.dev0",
-    "sphinx_theme": "alabaster"
+    "sphinx_theme": "sphinx_rtd_theme",
+    "_copy_without_render": [
+        "*.pdf"
+    ]
 }

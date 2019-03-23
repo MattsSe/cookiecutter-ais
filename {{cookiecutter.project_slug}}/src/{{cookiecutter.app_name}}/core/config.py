@@ -12,7 +12,6 @@ from .logger import logger
 
 __all__ = "config", "YamlConfig"
 
-
 class _AttrDict(dict):
     """ A dict-like object with attribute access.
 
