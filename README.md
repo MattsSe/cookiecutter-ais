@@ -39,10 +39,10 @@ $ pip install cookiecutter
 ```
 
 Create a new project directly from the template on
-[GitHub](https://github.com/MattsSe/cookiecutter-ais):
+[Gitlab](https://gitlab.lrz.de/ga63hav/cookiecutter-ais):
 
 ```bash
-$ cookiecutter gh:mattsse/cookiecutter-ais
+$ cookiecutter git+https://gitlab.lrz.de/ga63hav/cookiecutter-ais
 ```
 
 Create a new python project the cookiecutter-ais template. Run the
